@@ -46,3 +46,5 @@ tmp
 .eslintcache
 
 build
+fhm_sync_config.json
+secret.json
