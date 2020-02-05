@@ -1,0 +1,17 @@
+{
+  "name": "fhm_sync",
+  "version": "1.0.0",
+  "description": "Sync FHM online league files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg index.js --out-path build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bstar",
+  "license": "ISC",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "ssh2-sftp-client": "^5.0.2"
+  }
+}

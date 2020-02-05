@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "username": "bob",
+    "password": "xxxxx",
+    "source": "/server/source",
+    "dest": "/local/destination"
+}
