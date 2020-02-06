@@ -8,6 +8,9 @@ Tool for syncing online FHM league files.  Tool will connect to remote FTP and c
 $ npm start
 // runs script locally
 
+$ npm install pkg -g
+// install globally for building executables
+
 $ npm run build
 // outputs all system builds to ./builds
 
@@ -32,6 +35,6 @@ It's recommended to use encrypted username/password/host values in the fhm_sync_
 To generate encrypted values, set a secret in `secret.json` (see the example file included).  Then run the `encrypt` script to generate the encrypted username/password/host values.
 
 ```
-npm run encrypt
+$ npm run encrypt
 ```
 Simply transfer the values of the output from this script into the fhm_sync_config values.
